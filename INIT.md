@@ -6,7 +6,7 @@ from an empty folder.
 
 Please make sure to have the latest CLI, and at least NPM 5.
 
-When is doubt, its recommended to update to the latest version of node using a node versioning tool
+When is doubt, it's recommended to update to the latest version of a node using a node versioning tool
 such as for example [nave](https://github.com/isaacs/nave) or [nvm-windows](https://github.com/coreybutler/nvm-windows).
 
 # Step 1 - Scaffold a clean project using the Angular CLI
@@ -35,4 +35,4 @@ inside `node_modules/@angular/material/prebuild-themes`.
 
 We can for example use the Indigo Pink theme by adding this line to our styles.css file:
 
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.CSS";

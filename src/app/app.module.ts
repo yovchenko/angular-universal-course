@@ -23,16 +23,13 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatSortModule } from "@angular/material/sort";
 import { MatTableModule } from "@angular/material/table";
 import { MatToolbarModule } from "@angular/material/toolbar";
-import {CoursesService} from "./services/courses.service";
-import {CourseResolver} from "./services/course.resolver";
+import { CoursesService } from "./services/courses.service";
+import { CourseResolver } from "./services/course.resolver";
 import { CourseDialogComponent } from './course-dialog/course-dialog.component';
-import {ReactiveFormsModule} from "@angular/forms";
-import {MatMomentDateModule} from "@angular/material-moment-adapter";
-import { HttpClientModule} from '@angular/common/http';
-
-
-
-
+import { ReactiveFormsModule } from "@angular/forms";
+import { MatMomentDateModule } from "@angular/material-moment-adapter";
+import { HttpClientModule } from '@angular/common/http';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
     declarations: [
@@ -41,6 +38,7 @@ import { HttpClientModule} from '@angular/common/http';
         CourseComponent,
         CoursesCardListComponent,
         CourseDialogComponent,
+        AboutComponent,
     ],
     imports: [
         BrowserModule.withServerTransition({ appId: 'serverApp' }),
